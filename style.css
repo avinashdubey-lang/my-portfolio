@@ -188,3 +188,98 @@ body {
 .skills p:last-child {
     margin-bottom: 0;
 }
+
+/* ==========================================================================
+   7. CONTACT SECTION STYLES
+   ========================================================================== */
+.contact {
+    max-width: 800px;
+    margin: 40px auto 80px auto; /* Increased bottom margin for breathing room at page end */
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+    text-align: center; /* Centers the content inside the card */
+}
+
+.contact-content h2 {
+    color: #0284c7;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-bottom: 4px solid #0284c7;
+    padding-bottom: 6px;
+}
+
+.contact p {
+    color: #475569;
+    font-size: 17px;
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto 28px auto; /* Centers the paragraph block and adds bottom spacing */
+}
+
+/* Flexbox container to arrange buttons in a tidy row */
+.contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allows buttons to wrap gracefully on smaller mobile screens */
+    gap: 16px;
+}
+
+/* Base style for all contact buttons */
+.contact-btn {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+/* Primary Email Button style */
+.email-btn {
+    background-color: #0284c7;
+    color: #ffffff;
+}
+
+.email-btn:hover {
+    background-color: #0369a1;
+    transform: translateY(-2px);
+}
+
+/* Glass/Outline style for social channels (GitHub, LinkedIn) */
+.glass-btn {
+    border: 1px solid #cbd5e1;
+    background-color: #f8fafc;
+    color: #334155;
+}
+
+.glass-btn:hover {
+    background-color: #f1f5f9;
+    border-color: #94a3b8;
+    color: #0284c7; /* Subtle color splash on hover */
+    transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   8. FOOTER STYLES
+   ========================================================================== */
+.site-footer {
+    background-color: #ffffff;
+    padding: 24px 20px;
+    text-align: center;
+    border-top: 1px solid #e2e8f0;
+    width: 100%;
+}
+
+.site-footer p {
+    font-family: 'Segoe UI', sans-serif;
+    color: #64748b;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0; /* Clears any default browser paragraph margins */
+}
